@@ -1,0 +1,10 @@
+.out {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.out img {
+    width: 350px;
+    height: 250px;
+    margin: 10px;
+}

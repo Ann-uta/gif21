@@ -1,6 +1,6 @@
 function onSearch() {
     let out = '';
-let userRequest = document.getElementById("userRequest").value;
+    let userRequest = document.getElementById("userRequest").value;
 
     fetch("https://api.giphy.com/v1/gifs/search?api_key=nLFa4mMSmxf18GK4EjbWzeX98rxcNQ1U&q=" + userRequest +"&limit=5&offset=0&rating=g&lang=en")
     .then(response => response.json())
